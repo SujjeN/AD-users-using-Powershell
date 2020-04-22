@@ -1,12 +1,4 @@
 # AD-users-using-Powershell
-Powershell script to deploy AD users in Bulk using .csv file
-
-
-firstname,middleInitial,lastname,username,email,streetaddress,city,zipcode,state,country,department,password,telephone,jobtitle,company,ou
-Utsab,,Parajuli,uparajuli,utsab.parajuli@ktmserver.com,New Baneshwor,Kathmandu,75202,TX,Nepal,Sales,Nepal12345,214-800-4820,Sales Head,Ktmserver,"OU=Sales,DC=ktmserver,DC=com"
-Bikasn,Bikram,Shah,bshah,bikash.shah@ktmserver.com,Jorpati,Kathmandu,75202,TX,United States,Sales,Nepal12345,214-800-4820,Sales Manager,Ktmserver,"OU=Sales,DC=ktmserver,DC=com"
-Pawon,,Kc,pkc,pawon.kc@ktmserver.com,Thankot,Kathmandu,44600,BG,Nepal,Sales,Nepal12345,,Sales Manager,Ktmserver,"OU=Sales,DC=ktmserver,DC=com"
-
 # Import active directory module for running AD cmdlets
 Import-Module activedirectory
   
